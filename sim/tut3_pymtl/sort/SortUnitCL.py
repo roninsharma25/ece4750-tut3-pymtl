@@ -30,6 +30,7 @@ class SortUnitCL( Model ):
       for i, v in enumerate( data[1:] ):
         s.out[i].next = v
 
+
   # Line tracing
 
   def line_trace( s ):
